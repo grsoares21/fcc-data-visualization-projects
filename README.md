@@ -20,5 +20,7 @@ https://codepen.io/grsoares21/pen/mdeBqzJ
 https://codepen.io/grsoares21/pen/MWaowgj
 
 ## License
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Credits
+As previously stated these projects are part of a FreeCodeCamp course. FreeCodeCamp is a website that provide free courses on the subjects of programming and software engineering. Make sure to checkout at freeCodeCamp.org.
