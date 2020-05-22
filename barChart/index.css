@@ -1,0 +1,37 @@
+#myGraph {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#graphContainer {
+  display: inline-block;
+}
+
+#tooltip {
+  background-color: rgba(197, 77, 237, 0.8);
+  width: 150px;
+  height: 50px;
+  text-align: center;
+  padding-top: 15px;
+  opacity: 0;
+  color: white;
+  font-family: Verdana;
+  font-size: 14px;
+  position: absolute;
+  font-weight: bold;
+  transition: opacity 0.25s;
+}
+.bar {
+  fill: #23262e;
+}
+.bar:hover {
+  fill: #08e7c6;
+}
+
+#title {
+  width: 100%;
+  font-family: Verdana;
+  text-align: center;
+}
