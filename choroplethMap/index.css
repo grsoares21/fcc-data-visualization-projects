@@ -1,0 +1,47 @@
+#myGraph {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#title {
+  width: 100%;
+  font-family: Verdana;
+  text-align: center;
+}
+
+#description {
+  width: 100%;
+  font-family: Verdana;
+  text-align: center;
+}
+
+#tooltip {
+  background-color: rgba(197, 77, 237, 0.8);
+  width: 150px;
+  height: 50px;
+  text-align: center;
+  padding: 5px;
+  padding-top: 30px;
+  opacity: 0;
+  color: white;
+  font-family: Verdana;
+  font-size: 12px;
+  position: absolute;
+  font-weight: bold;
+  transition: opacity 0.25s;
+  pointer-events: none;
+}
+
+#graphContainer {
+  display: inline-block;
+}
+
+.county:hover {
+  fill: #fff;
+}
+
+.state {
+  pointer-events: none;
+}
